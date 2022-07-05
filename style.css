@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #3882f6;
+}
+
+.main-header {
+    background: #1f2937;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 400px;
+}
+
+.social {
+    padding-top: 10px;
+}
+
+.top {
+    height: 300px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 375px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+nav a {
+    display: block;
+    font-weight: 900;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-img {
+    height: 150px;
+    width: 300px;
+}
+
+nav h1 {
+    margin-left: 350px;   
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 50px;
+}
+
+.top .left {
+    /* margin-top: -50px; */
+    width: 300px;
+}
+
+
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background: #3882f6;
+    color: white;
+    border-radius: 15px;
+    border: 0;
+    font-size: 15px;
+}
+
+button:hover {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+main h2 {
+    text-align: center;
+    margin: 50px;
+    display: block;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.stack {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.stack img {
+    height: 150px;
+    width: 150px;
+    /* border: 1px solid #3882f6; */
+
+}
+
+.center-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+}
+
+.center-img p {
+    width: 0 auto;
+    padding: 10px;
+}
+
+.detail {
+    height: 300px;
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    font-size: 20px;
+}
+
+.detail div {
+    width: 500px;
+}
+
+.cta {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-go {
+    background: #3882f6;
+    width: 600px;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0 30px;
+    margin: 0;
+}
+
+.cta-go p {
+    font-weight: 900;
+}
+
+.cta-go button {
+    border: 1px solid white;
+    margin: auto 0;
+}
+
+footer {
+    height: 50px;
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
